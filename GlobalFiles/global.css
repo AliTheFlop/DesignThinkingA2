@@ -1,0 +1,64 @@
+/* Header container */
+.site-header .container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px 30px;
+  background-color: #0067B1; /* Blue background */
+  color: white;
+}
+
+/* Logo image */
+.logo img {
+  height: 50px;
+  width: auto;
+}
+
+/* Navbar list */
+.navbar {
+  display: flex;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+/* Navbar items */
+.navbar li {
+  margin-left: 20px;
+}
+
+.navbar a {
+  text-decoration: none;
+  color: white;
+  font-weight: 500;
+  padding: 10px 15px;
+  border-radius: 5px;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+/* Hover effect with green */
+.navbar a:hover {
+  background-color: #00A94F; /* Green hover */
+  color: white;
+}
+
+/* Optional: active page link (yellow border or background) */
+.navbar a.active {
+  background-color: #FFD200; /* Yellow highlight */
+  color: #003366; /* Darker text for contrast */
+  font-weight: bold;
+}
+
+.site-footer {
+  background-color: #0067B1; /* Same blue as header */
+  color: white;
+  padding: 20px 30px;
+  text-align: center;
+  font-size: 0.9rem;
+  border-top: 5px solid #00A94F; /* Thin green accent line */
+}
+
+.site-footer p {
+  margin: 0;
+  line-height: 1.6;
+}
