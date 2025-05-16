@@ -1,3 +1,5 @@
+/* Header */
+
 /* Header container */
 .site-header .container {
   display: flex;
@@ -48,6 +50,8 @@
   color: #003366; /* Darker text for contrast */
   font-weight: bold;
 }
+
+/* Footer */
 
 .site-footer {
   background-color: #0067B1; /* Same blue as header */
