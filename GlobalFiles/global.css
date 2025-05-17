@@ -1,12 +1,21 @@
+/* Global styles incorporate the Brisbane City Council colours as outlined in our design document */
+/* Primary focus of this file is to format the header and footer across all pages */
+
+/* Define variables */
+body {
+  --bcc-blue: #0067B1;
+  --bcc-yellow: #FFD200;
+  --bcc-green: #00A94F;
+}
+
 /* Header */
 
-/* Header container */
 .site-header .container {
   display: flex;
   align-items: center;
   justify-content: space-between;
   padding: 10px 30px;
-  background-color: #0067B1; /* Blue background */
+  background-color: var(--bcc-blue);
   color: white;
 }
 
@@ -38,28 +47,27 @@
   transition: background-color 0.3s, color 0.3s;
 }
 
-/* Hover effect with green */
+/* Hover effect*/
 .navbar a:hover {
-  background-color: #00A94F; /* Green hover */
+  background-color: var(--bcc-green);
   color: white;
 }
 
-/* Optional: active page link (yellow border or background) */
 .navbar a.active {
-  background-color: #FFD200; /* Yellow highlight */
-  color: #003366; /* Darker text for contrast */
+  background-color: var(--bcc-yellow);
+  color: #003366; 
   font-weight: bold;
 }
 
 /* Footer */
 
 .site-footer {
-  background-color: #0067B1; /* Same blue as header */
+  background-color: var(--bcc-blue); 
   color: white;
   padding: 20px 30px;
   text-align: center;
   font-size: 0.9rem;
-  border-top: 5px solid #00A94F; /* Thin green accent line */
+  border-top: 5px solid var(--bcc-green);
 }
 
 .site-footer p {
