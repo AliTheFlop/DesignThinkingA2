@@ -2,11 +2,13 @@
 /* Primary focus of this file is to format the header and footer across all pages */
 
 /* Define variables */
-body {
+:root {
   --bcc-blue: #0067B1;
   --bcc-yellow: #FFD200;
   --bcc-green: #00A94F;
 }
+
+
 
 /* Header */
 
@@ -58,6 +60,12 @@ body {
   color: #003366; 
   font-weight: bold;
 }
+
+
+
+/* Main */
+/* Universal colours for website background, headers, buttons, divs, and text */
+
 
 /* Footer */
 
