@@ -1,49 +1,111 @@
 <!DOCTYPE html>
 <html>
-<head>
-    <meta charset="UTF-8" />
-    <title>Home</title>
-    <link rel="stylesheet" href="/GlobalFiles/global.css">
-    <link rel="stylesheet" href="style.css">
-</head>
+    <head>
+        <meta charset="UTF-8" />
+        <title>Home</title>
+        <link rel="stylesheet" href="/GlobalFiles/global.css" />
+        <link rel="stylesheet" href="style.css" />
+    </head>
 
-<body>
-    <header class="site-header">
-    <div class="container">
-        <div class="logo">
-            <a href="/index.html">
-                <img src="/GlobalFiles/logo.png" alt="Site Logo">
-            </a>
-        </div>
-        <nav>
-        <ul class="navbar">
-            <li><a href="/index.html">Home</a></li>
-            <li><a href="/News/">News</a></li>
-            <li><a href="/Topics/index.html">Topics</a></li>
-            <li><a href="/AboutUs/index.html">About Us</a></li>
-        </ul>
-        </nav>
-    </div>
-    </header>
+    <body>
+        <header class="site-header">
+            <div class="container">
+                <div class="logo">
+                    <a href="/index.html">
+                        <img src="/GlobalFiles/logo.png" alt="Site Logo" />
+                    </a>
+                </div>
+                <nav>
+                    <ul class="navbar">
+                        <li><a href="/index.html">Home</a></li>
+                        <li><a href="/News/">News</a></li>
+                        <li><a href="/Topics/index.html">Topics</a></li>
+                        <li><a href="/AboutUs/index.html">About Us</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </header>
 
-    <!--Type any specific page content within the 'main' tag below--> 
-    <main> 
-        <div>
-            <h1>Welcome to the Climate Challenge</h1>
-        </div>
-        <p>
-            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nisi dolorum doloremque fugit perspiciatis nesciunt esse impedit, ex error architecto perferendis, beatae magni quaerat sed maiores consectetur enim eum sunt libero.
-        </p>
-    </main>
+        <!--Type any specific page content within the 'main' tag below-->
+        <main>
+            <!-- Container for width constraints -->
+            <div class="content-container">
+                <!-- Top container -->
+                <div class="intro-container">
+                    <h2>Welcome To Brisbane City Council</h2>
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipiscing elit.
+                        Quisque faucibus ex sapien vitae pellentesque sem
+                        placerat. In id cursus mi pretium tellus duis convallis.
+                        Tempus leo eu aenean sed diam urna tempor. Pulvinar
+                        vivamus fringilla lacus nec metus bibendum egestas.
+                        Iaculis massa nisl malesuada lacinia integer nunc
+                        posuere. Ut hendrerit semper vel class aptent taciti...
+                    </p>
+                </div>
+                <!-- Bottom container with all the content-->
+                <div class="bottom-container">
+                    <!-- Achievements box -->
+                    <div class="achievements-container">
+                        <h3 id="achievements-heading">Achievements</h3>
+                        <ul id="achievements-list">
+                            <li class="achievements-item">Lorem Ipsum</li>
+                            <li class="achievements-item">Lorem Ipsum</li>
+                            <li class="achievements-item">Lorem Ipsum</li>
+                            <li class="achievements-item">Lorem Ipsum</li>
+                            <li class="achievements-item">Lorem Ipsum</li>
+                        </ul>
+                    </div>
+                    <!-- Climate action importance box -->
+                    <div class="climate-action-container">
+                        <h3 id="climate-action-heading">
+                            Climate Action Importance
+                        </h3>
+                        <p id="climate-action-text">
+                            Lorem ipsum dolor sit amet consectetur adipiscing
+                            elit. Quisque faucibus ex sapien vitae pellentesque
+                            sem placerat. In id cursus mi pretium tellus duis
+                            convallis. In id cursus mi pretium tellus duis
+                            convallis.<br /><br /><strong>Fun Fact:</strong
+                            ><br /><br />Lorem ipsum dolor sit amet consectetur
+                            adipiscing elit.
+                        </p>
+                    </div>
+                    <!-- Start challenge box -->
+                    <div class="climate-challenge-container">
+                        <img
+                            src="https://imgs.search.brave.com/FNaBchRhPDOHyQUw5F3uEEAMx65bBk0ABM0It_oROU8/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly93d3cu/bmFzYS5nb3Yvd3At/Y29udGVudC91cGxv/YWRzLzIwMjUvMDUv/aW1hZ2UtMGFlZmY4/LmpwZWc_dz0xMDI0"
+                            alt="Man fixing plants in a river"
+                            id="climate-challenge-image"
+                        />
+                        <button id="climate-challenge-button">
+                            Start Challenge
+                        </button>
+                    </div>
+                    <!-- Community progress box -->
+                    <div class="community-progress-container">
+                        <h3 id="community-progress-heading">
+                            Community Progress
+                        </h3>
+                        <img
+                            src="https://imgs.search.brave.com/mLP_E3Bn6YS4zKqhQdGmHhiJPYH-GBuiCJq4gbWlhCE/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9pbWFn/ZXMuc3RvY2tjYWtl/LmNvbS9wdWJsaWMv/YS82LzgvYTY4MGE3/ZWQtNmI5OS00MGZh/LTk3ZDEtYTg0Y2Q3/Yjc2NjgwX2xhcmdl/L3N0b2NrLW1hcmtl/dC1ncm93dGgtc3Rv/Y2tjYWtlLmpwZw"
+                            alt="Stocks rising"
+                            id="community-progress-image"
+                        />
+                    </div>
+                </div>
+            </div>
+        </main>
 
-    <footer class="site-footer">
-  <div class="container">
-    <p>
-      &copy; 2025 - Jackson Downing, Ali Saleh, Aqua Cunningham, and Luan Child.<br>
-      Created for 2008ICT: Design Thinking in IT, Griffith University.
-    </p>
-  </div>
-</footer>
-
-</body>
+        <footer class="site-footer">
+            <div class="container">
+                <p>
+                    &copy; 2025 - Jackson Downing, Ali Saleh, Aqua Cunningham,
+                    and Luan Child.<br />
+                    Created for 2008ICT: Design Thinking in IT, Griffith
+                    University.
+                </p>
+            </div>
+        </footer>
+    </body>
 </html>

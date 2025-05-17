@@ -1,1 +1,100 @@
 /* This file is for all CSS stylings specific to a single page */
+
+.content-container {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.intro-container {
+    width: 90%;
+    background: lightgray;
+    margin: 20px 0;
+    padding: 10px 0;
+}
+
+.intro-container h2,
+p {
+    padding: 0 20px;
+}
+
+.bottom-container {
+    width: 90%;
+    margin-bottom: 20px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: 1fr;
+    grid-column-gap: 40px;
+    grid-row-gap: 0px;
+}
+
+.achievements-container,
+.climate-action-container,
+.climate-challenge-container,
+.community-progress-container {
+    display: flex;
+    flex-direction: column;
+}
+
+#achievements-heading {
+    background-color: lightgray;
+    padding: 20px 0;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+#achievements-list {
+    background-color: lightgray;
+    padding: 20px;
+    height: 100%;
+}
+
+.achievements-item {
+    margin-bottom: 15px;
+}
+
+#climate-action-heading {
+    background-color: lightgray;
+    padding: 20px 0;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+#climate-action-text {
+    background-color: lightgray;
+    padding: 20px;
+    height: 100%;
+}
+
+#climate-challenge-image {
+    max-width: 100%;
+}
+
+#climate-challenge-button {
+    width: 100%;
+    background-color: lightgray;
+    border: 1px solid black;
+    border-radius: 100px;
+    padding: 20px 0;
+    font-size: 16px;
+    font-weight: bold;
+    box-shadow: 0px 4px 5px 0px rgba(0, 0, 0, 0.25);
+    margin-top: auto;
+    margin-bottom: 30px;
+}
+
+#climate-challenge-button:hover {
+    box-shadow: 0px 6px 8px 0px rgba(0, 0, 0, 0.25);
+}
+
+#community-progress-heading {
+    background-color: lightgray;
+    padding: 20px 0;
+    text-align: center;
+    margin-bottom: 10px;
+}
+#community-progress-image {
+    max-width: 100%;
+}
