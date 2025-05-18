@@ -74,7 +74,6 @@ p {
 
 #climate-challenge-button {
     width: 100%;
-    background-color: lightgray;
     border: 1px solid black;
     border-radius: 100px;
     padding: 20px 0;
@@ -83,10 +82,6 @@ p {
     box-shadow: 0px 4px 5px 0px rgba(0, 0, 0, 0.25);
     margin-top: auto;
     margin-bottom: 30px;
-}
-
-#climate-challenge-button:hover {
-    box-shadow: 0px 6px 8px 0px rgba(0, 0, 0, 0.25);
 }
 
 #community-progress-heading {
