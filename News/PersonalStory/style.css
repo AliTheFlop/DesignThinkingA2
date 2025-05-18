@@ -1,5 +1,68 @@
-.heatwaveimg,
-.tempimg {
-    width: 300px;
-    height:300px;
+.main {
+  overflow: auto;
+}
+
+/* Center heading */
+h1 {
+  text-align: center;
+  margin: 10px;
+}
+
+/* Overall layout: left stories + right related */
+.personal-stories-wrapper {
+  display: flex;
+  gap: 40px;
+  padding: 20px 40px;
+}
+
+/* LEFT column: stacked story blocks */
+.personal-stories-container {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+  flex: 3;
+}
+
+/* Each story block (row) */
+.story-block {
+  display: flex;
+  gap: 30px;
+  align-items: flex-start;
+}
+
+/* Image section */
+.story-image {
+  flex: 0 0 300px;
+}
+.story-image img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+/* Text section */
+.story-text {
+  flex: 1;
+  flex-direction: column;
+}
+.story-text h2 {
+  margin-top: 0;
+}
+.story-text p {
+  margin-bottom: 50px;
+  margin-top: 0;
+}
+
+/* RIGHT column: Related stories */
+.relatedstories {
+  flex: 1;
+  background-color: #f3f3f3;
+  padding: 20px;
+  height: fit-content;
+}
+
+/* Related list styling */
+.relatedstories li {
+  list-style-type: none;
+  margin-bottom: 10px;
 }
