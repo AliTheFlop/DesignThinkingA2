@@ -31,7 +31,8 @@
 
 
 .action-list h2,
-.personal-stories h2 {
+.personal-stories h2,
+.detailed-news h2 {
     text-align: center;
 }
 
