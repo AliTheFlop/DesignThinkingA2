@@ -26,14 +26,17 @@ h1 {
 /* Each story block (row) */
 .story-block {
   display: flex;
-  gap: 30px;
-  align-items: flex-start;
+  gap: 40px
 }
 
 /* Image section */
-.story-image {
+.story-images{
+  display: flex;
+  flex-direction:column;
+  gap: 50px;
   flex: 0 0 300px;
 }
+
 .story-image img {
   width: 100%;
   height: auto;
