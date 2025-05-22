@@ -5,6 +5,12 @@
     margin: 10px auto;
 }
 
+.news-container {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+}
+
 .content-container {
     display: flex;
     justify-content: space-between;
