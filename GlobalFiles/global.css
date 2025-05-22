@@ -67,12 +67,12 @@
 .main-container {
   padding-inline:5%;
   padding-block:2%;
-  background-color: blue;
+  /* background-color: blue; */
 }
 
 main {
   background-color: whitesmoke;
-  background-color: red;
+  /* background-color: red; */
 }
 
 body, h1 {
