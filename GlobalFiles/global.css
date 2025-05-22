@@ -59,19 +59,26 @@
   color: white;
 }
 
+
+/* Main */
+/* Universal colours for website background, headers, buttons, divs, and text */
+
+/* Contains all content in <main>. Ensures there is appropriate whitespace between the content and the header/footer/edges of the screen */
+.main-container {
+  padding-inline:5%;
+  padding-block:2%;
+  background-color: blue;
+}
+
 main {
   background-color: whitesmoke;
+  background-color: red;
 }
 
 body, h1 {
   margin: 0px;
 }
 
-
-
-
-/* Main */
-/* Universal colours for website background, headers, buttons, divs, and text */
 button {
   background-color: var(--bcc-yellow);
 }
