@@ -21,12 +21,14 @@ h1 {
   flex-direction: column;
   gap: 40px;
   flex: 3;
+ 
 }
 
 /* Each story block (row) */
 .story-block {
   display: flex;
-  gap: 40px
+  gap: 40px;
+ 
 }
 
 /* Image section */
@@ -59,9 +61,9 @@ h1 {
 /* RIGHT column: Related stories */
 .relatedstories {
   flex: 1;
-  background-color: #f3f3f3;
   padding: 20px;
   height: fit-content;
+   background-color: lightgray;
 }
 
 /* Related list styling */
