@@ -3,9 +3,14 @@
 }
 
 /* Center heading */
-h1 {
+.pstory-heading{
+  padding-top: 2%;
+}
+.pstory-heading h1 {
   text-align: center;
-  margin: 10px;
+  width: 100%;
+  background-color: rgba(0, 169, 79, 0.35);
+  padding: 1%;
 }
 
 /* Overall layout: left stories + right related */
@@ -27,8 +32,7 @@ h1 {
 /* Each story block (row) */
 .story-block {
   display: flex;
-  gap: 40px;
- 
+  gap: 40px; 
 }
 
 /* Image section */
@@ -43,16 +47,28 @@ h1 {
   width: 100%;
   height: auto;
   display: block;
+  border-radius: 10px;
 }
 
 /* Text section */
 .story-text {
   flex: 1;
   flex-direction: column;
+  background-color: white;
+  border-radius: 10px;
+  padding: 20px
 }
+
+.storytext-container {
+  background-color: rgba(0, 103, 177, 0.35);
+  padding: 20px;
+  border-radius: 10px;
+}
+
 .story-text h2 {
   margin-top: 0;
 }
+
 .story-text p {
   margin-bottom: 50px;
   margin-top: 0;
@@ -63,7 +79,15 @@ h1 {
   flex: 1;
   padding: 20px;
   height: fit-content;
-   background-color: lightgray;
+  background-color: rgba(0, 103, 177, 0.35);
+  border-radius: 10px;
+  text-align: center;
+}
+
+.relatedstories ul {
+  background-color: white;
+  border-radius: 10px;
+  padding: 20px
 }
 
 /* Related list styling */
