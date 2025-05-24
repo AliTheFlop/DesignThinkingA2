@@ -4,8 +4,9 @@
 
 .news-heading h1 {
     text-align: center;
-    background-color: lightgray;
+    background-color: rgba(0, 169, 79, 0.35);
     width: 100%;
+    padding: 1%;
 }
 
 .news-container {
@@ -27,14 +28,14 @@
 .detailed-news {
     flex: 1;
     padding: 10px;
-    background-color: lightgray;
+    background-color: rgba(0, 103, 177, 0.35);
     border-radius: 10px;
 }
 
 .personal-stories {
      flex: 2;
     padding: 10px;
-    background-color: lightgray;
+    background-color: rgba(0, 103, 177, 0.35);
     border-radius: 10px;
 }
 
