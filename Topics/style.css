@@ -43,20 +43,17 @@
 
 .story-button {
     display: inline-block;
-    text-decoration: none;
-    background-color: white;
-    border: 1px solid black;
     border-radius: 100px;
     padding: 12px 24px;
     font-weight: bold;
-    box-shadow: 0px 4px 5px rgba(0, 0, 0, 0.25);
-    cursor: pointer;
     width: fit-content;
-    transition: background-color 0.3s ease;
+    transition: background-color 0.2s ease;
+    background-color: var(--bcc-green);
 }
 
 .story-button:hover {
     background-color: #ddd;
+    background-color: var(--bcc-yellow);
 }
 
 /* Container for the list - light gray background to match your style */
