@@ -9,12 +9,13 @@
     display: flex;
     align-items: center;
     flex-direction: column;
-    padding-block: 20px;
+    padding-top: 25px;
+    padding-bottom: 10px;
 }
 
 .img-container img {
     border-radius: 50%;
-    max-width: 80%;
+    max-width: 50%;
     height: auto;
     align-self: center;
 }
