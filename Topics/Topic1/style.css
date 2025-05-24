@@ -1,0 +1,92 @@
+/* style.css */
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+main {
+    padding: 40px 20px;
+    background-color: #ffffff;
+}
+
+.main-container {
+    max-width: 1000px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+h1, h2 {
+    color: #2b4c7e;
+    margin-bottom: 10px;
+}
+
+.video-container iframe {
+    border-radius: 10px;
+    max-width: 100%;
+    height: auto;
+    aspect-ratio: 16 / 9;
+}
+
+.description,
+.recent-news,
+.related-topics {
+    background-color: #eaf3fc;
+    border: 1px solid #c3d9ec;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.description p,
+.recent-news p,
+.related-topics ul {
+    margin-top: 10px;
+}
+
+.related-topics ul {
+    list-style: none;
+    padding-left: 0;
+}
+
+.related-topics li {
+    margin-bottom: 10px;
+}
+
+.related-topics a {
+    text-decoration: none;
+    color: #2b4c7e;
+    font-weight: bold;
+    transition: color 0.3s ease;
+}
+
+.related-topics a:hover {
+    color: #1a3055;
+}
+
+/* Global Header/Footer Styles (optional refinement) */
+.site-header,
+.site-footer {
+    background-color: #2b4c7e;
+    color: #fff;
+}
+
+.site-header .navbar a,
+.site-footer a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.site-header .navbar a:hover {
+    text-decoration: underline;
+}
+
+.container {
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 10px 20px;
+}
