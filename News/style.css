@@ -90,14 +90,7 @@
 
 .story-button{
     padding: 8px 15px;
-    background-color: gray;
-    color: white;
-    text-decoration: none;
     border-radius: 4px;
-}
-
-.story-button:hover{
-    background-color: var(--bcc-green);
 }
 
 .dnewsimg {
