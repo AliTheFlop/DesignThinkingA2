@@ -63,6 +63,17 @@
 /* Main */
 /* Universal colours for website background, headers, buttons, divs, and text */
 
+/* Ensures that the footer is always at the bottom of the screen, even on short pages (like About Us) */
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+main {
+    flex: 1;
+}
+
 /* Contains all content in <main>. Ensures there is appropriate whitespace between the content and the header/footer/edges of the screen */
 .main-container {
   padding-inline:5%;

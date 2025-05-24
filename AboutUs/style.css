@@ -4,6 +4,7 @@
     flex-direction: column;
 }
 
+/* Ensures that the image is centred on the screen by centring it within the container */
 .img-container {
     display: flex;
     align-items: center;
