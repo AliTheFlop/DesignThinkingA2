@@ -79,7 +79,7 @@
 
 
 /* Climate challenge styles - button */
-#climate-challenge-button {
+.climate-challenge-button {
     width: 100%;
     border: 1px solid black;
     border-radius: 100px;
