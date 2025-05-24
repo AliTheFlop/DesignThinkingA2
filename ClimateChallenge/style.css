@@ -130,7 +130,7 @@
 }
 
 /* Styling the help button */
-.help-container button {
+.help-container a {
     padding: 10px;
     margin-top: 10px;
 }
