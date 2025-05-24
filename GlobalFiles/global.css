@@ -78,12 +78,10 @@ main {
 .main-container {
   padding-inline:5%;
   padding-block:2%;
-  /* background-color: blue; */
 }
 
 main {
-  background-color: whitesmoke;
-  /* background-color: red; */
+  background-color: floralwhite;
 }
 
 body, h1 {
@@ -92,6 +90,7 @@ body, h1 {
 
 button {
   background-color: var(--bcc-yellow);
+  cursor: pointer;
 }
 
 button:hover {
