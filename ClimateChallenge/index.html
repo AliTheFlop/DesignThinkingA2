@@ -1,49 +1,163 @@
 <!DOCTYPE html>
 <html>
-<head>
-    <meta charset="UTF-8" />
-    <title>Climate Challenge</title>
-    <link rel="stylesheet" href="/GlobalFiles/global.css">
-    <link rel="stylesheet" href="style.css">
-</head>
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Climate Challenge</title>
+        <link rel="stylesheet" href="/GlobalFiles/global.css" />
+        <link rel="stylesheet" href="style.css" />
+    </head>
 
-<body>
-    <header class="site-header">
-        <div class="container">
-            <div class="logo">
-                <a href="/index.html">
-                    <img src="/GlobalFiles/logo.png" alt="Site Logo">
-                </a>
+    <body>
+        <header class="site-header">
+            <div class="container">
+                <div class="logo">
+                    <a href="/index.html">
+                        <img src="/GlobalFiles/logo.png" alt="Site Logo" />
+                    </a>
+                </div>
+                <nav>
+                    <ul class="navbar">
+                        <li><a href="/index.html">Home</a></li>
+                        <li><a href="/News/">News</a></li>
+                        <li><a href="/Topics/index.html">Topics</a></li>
+                        <li><a href="/AboutUs/index.html">About Us</a></li>
+                    </ul>
+                </nav>
             </div>
-            <nav>
-                <ul class="navbar">
-                    <li><a href="/index.html">Home</a></li>
-                    <li><a href="/News/">News</a></li>
-                    <li><a href="/Topics/index.html">Topics</a></li>
-                    <li><a href="/AboutUs/index.html">About Us</a></li>
-                </ul>
-            </nav>
-        </div>
-    </header>
+        </header>
 
-    <!--Type any specific page content within the 'main' tag below--> 
-    <main> 
-        <div>
-            <h1>Climate Challenge</h1>
-        </div>
-        <p>
-            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nisi dolorum doloremque fugit perspiciatis nesciunt esse impedit, ex error architecto perferendis, beatae magni quaerat sed maiores consectetur enim eum sunt libero.
-        </p>
-    </main>
+        <!--Type any specific page content within the 'main' tag below-->
+        <main>
+            <div class="main-container">
+                <!-- Climate challenge heading & subheading -->
+                <div class="climate-challenge-heading">
+                    <h1>Welcome to the Climate Challenge!</h1>
+                    <p>
+                        Complete challenges to finish your checklist, finally
+                        submit the challenge and share your pledge to the world.
+                    </p>
+                </div>
 
-    <footer class="site-footer">
-        <div class="container">
-            <p>
-                &copy; 2025 - Ali Saleh, Aqua Cunningham, Jackson Downing, & Luan Child.<br />
-                Created for 2008ICT at Griffith University.
-            </p>
-        </div>
-    </footer>
+                <!-- Grid to hold the 4 main boxes - card flip, infographic, real-life action, and the checklist -->
+                <div class="climate-challenge-checklist-grid">
+                    <!-- Card Flip Box (it does an actual card flip too lol) - 2 classes here: 1 for the main container, another for the card flip stuff -->
+                    <div class="climate-challenge-checklist-container flip-card" >
+                        <!-- The entire card flip box -->
+                        <div class="flip-card-inner">
+                            <!-- This is what shows at the front before flip -->
+                            <div class="flip-card-front">
+                                <img
+                                    src="./Images/flash-cards.png"
+                                    alt="Card flip"
+                                />
+                            </div>
+                             <!-- This is what shows at the back after flip -->
+                            <div class="flip-card-back">
+                                <h1>Card Flip</h1>
+                                <p>Ready to play the card flip game?</p>
+                                <p>Get started by clicking the button below!</p>
+                            </div>
+                        </div>
+                        <!-- Start card flip game! -->
+                        <button>Start Card Flip</button>
+                    </div>
+                    <!-- Infographic Box (also does card flip) - 2 classes here: 1 for the main container, another for the card flip stuff -->
+                    <div  class="climate-challenge-checklist-container flip-card" >
+                        <!-- The entire card flip box -->
+                        <div class="flip-card-inner">
+                            <!-- This is what shows at the front before flip -->
+                            <div class="flip-card-front">
+                                <img
+                                    src="./Images/infographic.png"
+                                    alt="Infographic"
+                                />
+                            </div>
+                            <!-- This is what shows at the back after flip -->
+                            <div class="flip-card-back">
+                                <h1>Infographic</h1>
+                                <p>
+                                    Do you know your way around climate change
+                                    areas & disciplines? Test it out here!
+                                </p>
+                                <p>Get started by clicking the button below!</p>
+                            </div>
+                        </div>
+                        <!-- Start the infographic! -->
+                        <button>Start Infographic</button>
+                    </div>
+                    <!-- My Real-Life Action Box (also does card flip) - 2 classes here: 1 for the main container, another for the card flip stuff -->
+                    <div  class="climate-challenge-checklist-container flip-card" >
+                        <!-- The entire card flip box -->
+                        <div class="flip-card-inner">
+                            <!-- This is what shows at the front before flip -->
+                            <div class="flip-card-front">
+                                <img
+                                    src="./Images/real-life-action.png"
+                                    alt="Checklist"
+                                />
+                            </div>
+                             <!-- This is what shows at the back after flip -->
+                            <div class="flip-card-back">
+                                <h1>Real-Life Action</h1>
+                                <p>
+                                    Do a real life action right now and submit
+                                    it here to check this off.
+                                </p>
+                                <p>Get started by clicking the button below!</p>
+                            </div>
+                        </div>
+                        <!-- Submit my action! -->
+                        <button>Submit My Action</button>
+                    </div>
 
-</body>
+                    <!-- The checklist to keep track of what you're doing -->
+                    <div class="climate-challenge-checklist">
+                        <!-- Header for the checklist -->
+                        <h3>Today's Completed Checklist</h3>
+                        <!-- Single checklist item -->
+                        <div class="climate-challenge-checklist-item">
+                            <p>Card Flip</p>
+                                <!-- Checkbox -->      
+                                <div class="checklist-checkbox">
+                                    <input type="checkbox" />
+                                </div>
+                        </div>
+                        <!-- Single checklist item -->
+                        <div class="climate-challenge-checklist-item">
+                            <p>Infographic</p>
+                            <!-- Checkbox --> 
+                            <div class="checklist-checkbox">
+                                    <input type="checkbox" />
+                                </div>
+                        </div>
+                        <!-- Single checklist item -->
+                        <div class="climate-challenge-checklist-item">
+                            <p>Real-Life Action</p>
+                            <!-- Checkbox --> 
+                            <div class="checklist-checkbox">
+                                    <input type="checkbox" />
+                                </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Help container at the bottom of the screen -->
+                <div class="help-container">
+                    <strong> Tap / Hover over images for more info. </strong>
+                    <button>I Need Help!</button>
+                </div>
+            </div>
+        </main>
+
+        <footer class="site-footer">
+            <div class="container">
+                <p>
+                    &copy; 2025 - Ali Saleh, Aqua Cunningham, Jackson Downing, &
+                    Luan Child.<br />
+                    Created for 2008ICT at Griffith University.
+                </p>
+            </div>
+        </footer>
+    </body>
 </html>
