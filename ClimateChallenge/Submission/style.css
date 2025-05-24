@@ -1,0 +1,149 @@
+/* Main page container using CSS Grid for two-column layout */
+.submission-page-container {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    gap: 30px;
+    align-items: flex-start;
+}
+
+/* Styling for the left column in the submission page grid */
+.submission-left-column {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+/* Styling for the right column in the submission page grid */
+.submission-right-column {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+/* Class for all content divs */
+.content-block {
+    background-color: white;
+    padding: 20px;
+    border: 1px solid #ccc;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+/* Styling for all headings (h2) */
+h2 {
+    margin-top: 0;
+    margin-bottom: 15px;
+    color: var(--bcc-blue);
+    text-align: left;
+}
+
+/* Center fact container heading */
+.fact-container h2 {
+    text-align: center;
+}
+
+/* Styling for the textarea in the pledge container */
+.pledge-container textarea {
+    width: 100%;
+    min-height: 120px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    margin-bottom: 15px;
+    box-sizing: border-box;
+    font-size: 16px;
+}
+
+/* Styling for the share button within the pledge container */
+.pledge-container .share-button {
+    margin-left: auto;
+    display: block;
+    padding: 4px 8px;
+}
+
+/* Styling for images within the fact container */
+.fact-container img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+}
+
+/* Styling for paragraphs within the fact container */
+.fact-container p {
+    font-size: 0.95rem;
+    line-height: 1.5;
+    text-align: center;
+}
+
+/* Styling for unordered lists within the tasks container */
+.tasks-container ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+/* Styling for list items within the tasks container */
+.tasks-container li {
+    background-color: white;
+    padding: 10px;
+    margin-bottom: 8px;
+    border-radius: 0px;
+    font-size: 0.95rem;
+    border: 1px solid #ddd;
+}
+
+/* Styling for the success message block */
+.success-message {
+    background-color: var(--bcc-green);
+    color: white;
+    font-size: 1.2em;
+    font-weight: bold;
+    text-align: center;
+    padding: 30px 20px;
+}
+
+/* Styling for paragraphs within the success message block */
+.success-message p {
+    margin: 0;
+}
+
+/* Styling for paragraphs within the main text block */
+.main-text-block p {
+    margin-top: 0;
+    margin-bottom: 1em;
+}
+
+/* Styling for the last paragraph within the main text block to add more space before buttons */
+.main-text-block p:last-of-type {
+    margin-bottom: 1.5em;
+}
+
+/* Styling for buttons within the main text block */
+.main-text-block .button {
+    background-color: #e0e0e0;
+    color: black;
+    border: 1px solid #adadad;
+    padding: 8px 15px;
+    text-decoration: none;
+    border-radius: 0px;
+    font-weight: normal;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    cursor: pointer;
+    display: inline-block;
+}
+
+/* Hover styling for buttons within the main text block */
+.main-text-block .button:hover {
+    background-color: #d0d0d0;
+}
+
+/* Responsive adjustments for smaller screens */
+@media screen and (max-width: 850px) {
+    .submission-page-container {
+        grid-template-columns: 1fr;
+    }
+}
