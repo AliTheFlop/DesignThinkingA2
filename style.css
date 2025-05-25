@@ -6,17 +6,6 @@ body {
     color: #333;
 }
 
-/* Sets background color for the main content area. */
-main {
-    background-color: #ffffff;
-}
-
-/* Styles headings within the main container. */
-.main-container h1,
-.main-container h3 {
-    color: #2b4c7e;
-}
-
 /* Styles the introductory content container. */
 .intro-container {
     background-color: #eaf3fc;
@@ -49,14 +38,13 @@ main {
 }
 
 /* Styles headings within the card-like sections. */
-.achievements-container h3,
-.climate-action-container h3,
-.climate-challenge-container h3,
-.community-progress-container h3 {
+.achievements-container h2,
+.climate-action-container h2,
+.climate-challenge-container h2,
+.community-progress-container h2 {
     text-align: center;
     margin-top: 0;
     margin-bottom: 15px;
-    color: #2b4c7e;
 }
 
 /* Styles the list within the achievements section. */
@@ -93,4 +81,8 @@ main {
     border-radius: 100px;
     padding: 15px 0;
     margin-top: auto;
+}
+
+h2 {
+    font-size: 120%;
 }

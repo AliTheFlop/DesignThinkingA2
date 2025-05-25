@@ -1,5 +1,4 @@
 h1, h2 {
-    color: #2b4c7e;
     margin-bottom: 10px;
 }
 
@@ -43,7 +42,6 @@ h1, h2 {
 .links-container h2 {
     margin-bottom: 20px;
     font-size: 1.4rem;
-    color: var(--bcc-blue); 
 }
 
 /* Styles the list format*/

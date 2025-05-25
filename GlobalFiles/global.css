@@ -75,7 +75,7 @@ html {
 
 main {
     flex: 1;
-    background-color: floralwhite;
+    background-color: #FFFFFF;
 }
 
 /* Ensures that the footer is always at the bottom of the screen, even on short pages (like About Us) */
@@ -87,6 +87,15 @@ body {
 
 body, h1 {
   margin: 0px;
+}
+
+/* Styles fonts*/
+h1, h3 {
+  color: #2b4c7e;
+}
+
+h2, h4 {
+  color: var(--bcc-blue);
 }
 
 

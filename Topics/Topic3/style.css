@@ -1,5 +1,4 @@
 h1, h2 {
-    color: #2b4c7e;
     margin-bottom: 10px;
 }
 
@@ -36,14 +35,12 @@ h1, h2 {
     border-radius: 8px;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
     text-align: center;
-  
 }
 
 /* Styles the related topics heading */
 .links-container h2 {
     margin-bottom: 20px;
     font-size: 1.4rem;
-    color: var(--bcc-blue); 
 }
 
 /* Styles the list format*/
