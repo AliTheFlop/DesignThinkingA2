@@ -1,102 +1,96 @@
-/* This file is for all CSS stylings specific to a single page */
-
-/* Container containing all the containers for the page full of containers */
-.content-container {
-    width: 100%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
+/* Defines base styles for the page body. */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 1.6;
+    background-color: #f4f4f4;
+    color: #333;
 }
 
-/* Heading container styles */
+/* Sets background color for the main content area. */
+main {
+    background-color: #ffffff;
+}
+
+/* Styles headings within the main container. */
+.main-container h1,
+.main-container h3 {
+    color: #2b4c7e;
+}
+
+/* Styles the introductory content container. */
 .intro-container {
-    background: lightgray;
-    margin: 20px 0;
+    background-color: #eaf3fc;
+    border: 1px solid #c3d9ec;
+    border-radius: 10px;
     padding: 20px;
+    margin: 20px 0;
 }
 
-/* Button container holding the rest of the containers */
+/* Defines grid layout for the bottom card-like sections. */
 .bottom-container {
     margin-bottom: 20px;
     display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    grid-template-rows: 1fr;
-    grid-column-gap: 40px;
-    grid-row-gap: 0px;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    grid-column-gap: 30px;
+    grid-row-gap: 30px;
 }
 
-/* Giving each container flexbox to help layout */
+/* Styles individual card-like sections in the bottom container. */
 .achievements-container,
 .climate-action-container,
 .climate-challenge-container,
 .community-progress-container {
     display: flex;
     flex-direction: column;
+    background-color: #eaf3fc;
+    border: 1px solid #c3d9ec;
+    border-radius: 10px;
+    padding: 20px;
 }
 
-/* Handling the heading for achievements */
-#achievements-heading {
-    background-color: lightgray;
-    padding: 20px 0;
+/* Styles headings within the card-like sections. */
+.achievements-container h3,
+.climate-action-container h3,
+.climate-challenge-container h3,
+.community-progress-container h3 {
     text-align: center;
+    margin-top: 0;
+    margin-bottom: 15px;
+    color: #2b4c7e;
+}
+
+/* Styles the list within the achievements section. */
+.achievements-container ul {
+    list-style-position: inside;
+    padding-left: 0;
+    margin-bottom: 0;
+    flex-grow: 1;
+}
+
+/* Styles individual items in the achievements list. */
+.achievements-item {
     margin-bottom: 10px;
 }
 
-/* Handling the list for achievements */
-#achievements-list {
-    background-color: lightgray;
-    padding: 20px;
-    height: 100%;
+/* Styles paragraphs within the climate action container. */
+.climate-action-container p {
+    margin-bottom: 0;
+    flex-grow: 1;
 }
 
-/* Single achievement item style */
-.achievements-item {
+/* Styles images in climate challenge and community progress sections. */
+.climate-challenge-container img,
+.community-progress-container img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 6px;
     margin-bottom: 15px;
 }
 
-
-/* Climate action styles - heading */
-#climate-action-heading {
-    background-color: lightgray;
-    padding: 20px 0;
-    text-align: center;
-    margin-bottom: 10px;
-}
-
-
-/* Climate action styles - text */
-#climate-action-text {
-    background-color: lightgray;
-    padding: 20px;
-    height: 100%;
-}
-
-/* Climate challenge styles - image */
-#climate-challenge-image {
-    max-width: 100%;
-}
-
-
-/* Climate challenge styles - button */
+/* Styles the button in the climate challenge section. */
 .climate-challenge-button {
-    background-color: var(--bcc-yellow);
     width: 100%;
     border-radius: 100px;
-    padding: 20px 0;
+    padding: 15px 0;
     margin-top: auto;
-}
-
-
-/* Community progress styles - heading */
-#community-progress-heading {
-    background-color: lightgray;
-    padding: 20px 0;
-    text-align: center;
-    margin-bottom: 10px;
-}
-
-/* Community progress styles - image */
-#community-progress-image {
-    max-width: 100%;
 }
