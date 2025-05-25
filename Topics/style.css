@@ -1,7 +1,6 @@
 .heading h1 {
     padding: 20px 0;
     text-align: center;
-    font-weight: bold;
 }
 
 .topics-grid {
@@ -13,18 +12,17 @@
 }
 
 .topic-card {
-    background-color:  rgba(0, 103, 177, 0.35);
+    background-color: #eaf3fc;
+    border: 1px solid #c3d9ec;
     padding: 20px;
     border-radius: 6px;
-    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
     display: flex;
     flex-direction: column;
     justify-content: space-between;
 }
 
 .topic-card h2 {
-    margin-top: 0;
-    margin-bottom: 10px;
+    margin: 0 0 10px 0;
     font-weight: 600;
 }
 
@@ -33,25 +31,42 @@
     line-height: 1.4;
 }
 
-.story-button {
-    display: inline-block;
+.readmore-button {
+    composes: button;
     border-radius: 100px;
     padding: 12px 24px;
-    font-weight: bold;
     width: fit-content;
-    transition: background-color 0.2s ease;
-    background-color: var(--bcc-green);
 }
 
-.story-button:hover {
-    background-color: #ddd;
-    background-color: var(--bcc-yellow);
+.topic-card .topic-image {
+    width: 100%;
+    height: 150px; 
+    object-fit: cover; 
+    border-radius: 6px 6px 0 0; 
+    margin-bottom: 10px;
+    display: block;
 }
 
+.links-container {
+    max-width: 800px;
+    margin: 40px auto;
+    padding: 20px;
+    background-color: rgba(0, 103, 177, 0.05);
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.links-container h2 {
+    margin-bottom: 20px;
+    font-size: 1.4rem;
+    color: var(--bcc-blue); 
+}
 
 .links-container ul {
     list-style: none;
     padding-left: 0;
+    margin: 0;
 }
 
 .links-container li {
@@ -69,12 +84,23 @@
     color: #1a3055;
 }
 
+@media (max-width: 768px) {
+  .topics-grid {
+    grid-template-columns: 1fr; 
+    gap: 20px; 
+  }
 
-.topic-card .topic-image {
-    width: 100%;
-    height: 150px; 
-    object-fit: cover; 
-    border-radius: 6px 6px 0 0; 
-    margin-bottom: 10px;
-    display: block;
+  .links-container {
+    padding: 15px;
+    margin: 20px auto;
+  }
+
+  .heading h1 {
+    font-size: 1.6rem;
+    padding: 15px 10px;
+  }
+
+  .topic-card {
+    padding: 15px;
+  }
 }
