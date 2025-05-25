@@ -1,11 +1,13 @@
+/* Main container overflow handling */
 .main {
   overflow: auto;
 }
 
-/* Center heading */
-.pstory-heading{
+/* Personal story heading styles */
+.pstory-heading {
   padding-top: 2%;
 }
+
 .pstory-heading h1 {
   text-align: center;
   width: 100%;
@@ -13,32 +15,31 @@
   padding: 1%;
 }
 
-/* Overall layout: left stories + right related */
+/* Main layout wrapper: left column (stories) and right column (related) */
 .personal-stories-wrapper {
   display: flex;
   gap: 40px;
   padding: 20px 40px;
 }
 
-/* LEFT column: stacked story blocks */
+/* LEFT column: container for multiple story blocks */
 .personal-stories-container {
   display: flex;
   flex-direction: column;
   gap: 40px;
   flex: 3;
- 
 }
 
-/* Each story block (row) */
+/* Each story block row */
 .story-block {
   display: flex;
-  gap: 40px; 
+  gap: 40px;
 }
 
-/* Image section */
-.story-images{
+/* Story images section */
+.story-images {
   display: flex;
-  flex-direction:column;
+  flex-direction: column;
   gap: 50px;
   flex: 0 0 300px;
 }
@@ -50,7 +51,14 @@
   border-radius: 10px;
 }
 
-/* Text section */
+/* Story text container */
+.storytext-container {
+  background-color: #eaf3fc;
+  border: 1px solid #c3d9ec;
+  padding: 20px;
+  border-radius: 10px;
+}
+
 .story-text {
   flex: 1;
   flex-direction: column;
@@ -61,47 +69,32 @@
   margin-top: 50px;
 }
 
-.storytext-container {
-  background-color: #eaf3fc;
-  border: 1px solid #c3d9ec;
-  padding: 20px;
-  border-radius: 10px;
-}
-
 .story-text h2 {
   margin-top: 0;
 }
 
 .story-text p {
-  margin-bottom: 50px;
   margin-top: 0;
+  margin-bottom: 50px;
 }
 
-/* RIGHT column: Related stories */
+/* RIGHT column: related stories */
 .relatedstories {
-  flex: 1;
+  max-width: 100%;
+  margin: 20px auto;
   padding: 20px;
-  height: fit-content;
-  background-color: #eaf3fc;
-  border: 1px solid #c3d9ec;
-  border-radius: 10px;
+  background-color: rgba(0, 103, 177, 0.05);
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
   text-align: center;
 }
 
-.relatedstories ul {
-  background-color: #c3d9ec8c;
-  border: 1px solid #b0cbe3;
-  border-radius: 10px;
-  padding: 20px;
-  margin-top: 50px;
-}
-
-/* Related list styling */
+/* Related stories list styling */
 .relatedstories li {
   list-style-type: none;
   margin-bottom: 10px;
 }
- 
+
 .relatedstories a {
   text-decoration: none;
   color: #2b4c7e;
@@ -111,4 +104,47 @@
 
 .relatedstories a:hover {
   color: #1a3055;
+}
+
+/* Responsive layout for mobile devices */
+@media (max-width: 768px) {
+  .personal-stories-wrapper {
+    flex-direction: column;
+    padding: 20px;
+  }
+
+  .story-block {
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  .story-images {
+    flex: 0 0 auto;
+    width: 100%;
+    gap: 20px;
+  }
+
+  .story-image img {
+    width: 100%;
+    height: auto;
+  }
+
+  .story-text {
+    margin-top: 0;
+    padding: 15px;
+  }
+
+  .storytext-container {
+    padding: 15px;
+  }
+
+  .pstory-heading h1 {
+    font-size: 1.5rem;
+    padding: 2%;
+  }
+
+  .relatedstories {
+    margin-top: 30px;
+    padding: 15px;
+  }
 }
