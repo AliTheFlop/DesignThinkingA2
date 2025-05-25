@@ -75,7 +75,7 @@ html {
 
 main {
     flex: 1;
-    background-color: #FFFFFF;
+    background-color: floralwhite;
 }
 
 body {
@@ -86,7 +86,6 @@ body {
     /* Sets font for entire website */
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     line-height: 1.6;
-    background-color: #f4f4f4;
     color: #333;
 }
 
@@ -96,7 +95,7 @@ body, h1 {
 
 /* Styles fonts*/
 h1, h3 {
-  color: #2b4c7e;
+  color: #1c3a66;
 }
 
 h2, h4 {
