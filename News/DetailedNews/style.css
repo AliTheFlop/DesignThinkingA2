@@ -20,6 +20,7 @@ padding-top: 2%;
     background-color: rgba(0, 103, 177, 0.35);
     border-radius: 10px;
     padding: 10px;
+    text-align: center;
 }
 
 .left-column{
@@ -38,7 +39,8 @@ padding-top: 2%;
 
 .middle-text,
 .related-topics {
-    background-color: white;
+     background-color: #c3d9ec8c;
+  border: 1px solid #b0cbe3;
     padding: 20px;
     border-radius: 10px;
     margin-top: 50px;
@@ -46,20 +48,23 @@ padding-top: 2%;
 
 .mt-container,
 .rt-container {
-    background-color: rgba(0, 103, 177, 0.35);
+   background-color: #eaf3fc;
+  border: 1px solid #c3d9ec;
     padding: 10px;
     border-radius: 10px;
 }
 
 .right-column {
     flex: 1;
-    background-color: rgba(0, 103, 177, 0.35);
+    background-color: #eaf3fc;
+  border: 1px solid #c3d9ec;
     padding: 10px;
     border-radius:10px;
 }
 
 .c-action-list {
-    background-color: white;
+    background-color: #c3d9ec8c;
+  border: 1px solid #b0cbe3;
     border-radius: 10px;
     padding: 20px;
     margin-top: 50px;
@@ -85,3 +90,13 @@ h3 {
     margin-top: 10px;
     margin-bottom: 20px;
 }
+
+.related-topics ul a,
+.related-topics ul {
+    list-style-type: none;
+    text-decoration: none;
+    color: #2b4c7e;
+    font-weight: bold;
+    transition: color 0.3s ease;
+}
+
