@@ -1,11 +1,3 @@
-.content-container {
-    width: 90%;
-    margin: 20px auto;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
-
 .heading h1 {
     padding: 20px 0;
     text-align: center;
@@ -57,32 +49,24 @@
 }
 
 
-.links-container {
-    background-color:  rgba(0, 103, 177, 0.35);
-    padding: 20px;
-    border-radius: 6px;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-    width: 100%;
-    max-width: 600px;
-    margin: 0 auto 40px; 
-    text-align: center;
+.links-container ul {
+    list-style: none;
+    padding-left: 0;
 }
 
-.links-container h3 {
-    margin-bottom: 15px;
-    font-weight: bold;
-}
-
-
-.links-list {
-    list-style-type: none;
-    padding: 0;
-    margin: 0;
-}
-
-
-.links-list li {
+.links-container li {
     margin-bottom: 10px;
+}
+
+.links-container a {
+    text-decoration: none;
+    color: #2b4c7e;
+    font-weight: bold;
+    transition: color 0.3s ease;
+}
+
+.links-container a:hover {
+    color: #1a3055;
 }
 
 
