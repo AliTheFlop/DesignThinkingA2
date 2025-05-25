@@ -7,7 +7,7 @@
     text-align: center;
     background-color: rgba(0, 169, 79, 0.35);
     width: 100%;
-    padding: 1%;
+    padding-block: 1%;
 }
 
 
@@ -25,9 +25,6 @@
 .personal-stories {
     flex: 2;
     padding: 10px;
-    background-color: #eaf3fc;
-    border: 1px solid #c3d9ec;
-    border-radius: 10px;
 }
 
 .action-list h2,
