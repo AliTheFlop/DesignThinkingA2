@@ -13,10 +13,6 @@ h1, h2 {
 .description,
 .recent-news,
 .links-container {
-    background-color: #eaf3fc;
-    border: 1px solid #c3d9ec;
-    padding: 20px;
-    border-radius: 10px;
     margin-bottom: 30px;
 }
 
@@ -30,9 +26,6 @@ h1, h2 {
 .links-container {
     max-width: 800px;
     margin: 40px auto;
-    padding: 20px;
-    background-color: rgba(0, 103, 177, 0.05);
-    border-radius: 8px;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
     text-align: center;
 }

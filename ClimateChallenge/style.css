@@ -49,12 +49,14 @@
     transform: rotateY(180deg);
 }
 
+.flip-card-back h1 {
+    color: black;
+}
+
 /* Our page styles */
 /* Heading (subject to change) */
 .climate-challenge-heading {
-    background: lightgray;
     margin: 20px 0;
-    padding: 20px;
 }
 
 /* The checklist grid for all the activities - holds everything and keeps them styled the same. */
