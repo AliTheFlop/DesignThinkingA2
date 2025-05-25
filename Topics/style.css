@@ -79,11 +79,12 @@
     transition: color 0.3s ease;
 }
 
-/*
+/*changes colour of link when hovered*/
 .links-container a:hover {
     color: #1a3055;
 }
 
+/*Adjusts style of page for use on mobiles*/
 @media (max-width: 768px) {
   .topics-grid {
     grid-template-columns: 1fr; 

@@ -8,6 +8,7 @@ h1, h2 {
     max-width: 100%;
     height: auto;
     aspect-ratio: 16 / 9;
+    margin-bottom: 30px;
 }
 
 .description,
@@ -17,6 +18,7 @@ h1, h2 {
     border: 1px solid #c3d9ec;
     padding: 20px;
     border-radius: 10px;
+    margin-bottom: 30px;
 }
 
 .description p,
@@ -25,22 +27,46 @@ h1, h2 {
     margin-top: 10px;
 }
 
-.related-topics ul {
-    list-style: none;
-    padding-left: 0;
+/* Styles the related topics container*/
+.links-container {
+    max-width: 800px;
+    margin: 40px auto;
+    padding: 20px;
+    background-color: rgba(0, 103, 177, 0.05);
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    text-align: center;
+  
 }
 
-.related-topics li {
+/* Styles the related topics heading */
+.links-container h2 {
+    margin-bottom: 20px;
+    font-size: 1.4rem;
+    color: var(--bcc-blue); 
+}
+
+/* Styles the list format*/
+.links-container ul {
+    list-style: none;
+    padding-left: 0;
+    margin: 0;
+}
+
+/*Styles each item in the list*/
+.links-container li {
     margin-bottom: 10px;
 }
 
-.related-topics a {
+/*styles text links*/
+.links-container a {
     text-decoration: none;
     color: #2b4c7e;
     font-weight: bold;
     transition: color 0.3s ease;
 }
 
-.related-topics a:hover {
+/*changes colour of link when hovered*/
+.links-container a:hover {
     color: #1a3055;
 }
