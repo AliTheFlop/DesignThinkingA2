@@ -102,6 +102,12 @@ h2, h4 {
   color: var(--bcc-blue);
 }
 
+.text-container {
+    background-color: #eaf3fc;
+    border: 1px solid #c3d9ec;
+    border-radius: 10px;
+    padding: 20px;
+}
 
 .button {
   background-color: var(--bcc-green);

@@ -1,9 +1,5 @@
 /* Styles the introductory content container. */
 .intro-container {
-    background-color: #eaf3fc;
-    border: 1px solid #c3d9ec;
-    border-radius: 10px;
-    padding: 20px;
     margin: 20px 0;
 }
 
@@ -23,9 +19,6 @@
 .community-progress-container {
     display: flex;
     flex-direction: column;
-    background-color: #eaf3fc;
-    border: 1px solid #c3d9ec;
-    border-radius: 10px;
     padding: 20px;
 }
 
