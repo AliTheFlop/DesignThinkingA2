@@ -1,11 +1,3 @@
-/* Defines base styles for the page body. */
-body {
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    line-height: 1.6;
-    background-color: #f4f4f4;
-    color: #333;
-}
-
 /* Styles the introductory content container. */
 .intro-container {
     background-color: #eaf3fc;
