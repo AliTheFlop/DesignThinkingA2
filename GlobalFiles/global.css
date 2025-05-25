@@ -16,15 +16,31 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding: 10px 30px;
+  padding: 8px 30px;
   background-color: var(--bcc-blue);
   color: white;
 }
 
 /* Logo image */
 .logo img {
-  height: 50px;
+  height: 60px;
   width: auto;
+}
+
+/* Site name */
+.site-name h1 {
+  color: white;
+  font-size: 20px;
+  margin-left: 15px;
+}
+
+.site-name a {
+  text-decoration: none;
+}
+
+.branding {
+  display: flex;
+  align-items: center;
 }
 
 /* Navbar list */
