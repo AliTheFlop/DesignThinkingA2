@@ -15,7 +15,11 @@
 
 .img-container img {
     border-radius: 50%;
-    max-width: 50%;
+    max-width: 60%;
     height: auto;
     align-self: center;
+}
+
+.text-container {
+    margin-block: 20px;
 }
