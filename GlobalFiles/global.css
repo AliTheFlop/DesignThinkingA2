@@ -6,6 +6,11 @@
   --bcc-blue: #0067B1;
   --bcc-yellow: #FFD200;
   --bcc-green: #00A94F;
+  --header-blue: #1c3a66;
+  --textbox-blue: #f0f5ff;
+  --textbox-border: #c3d9ec;
+  --light-green: #a8dcbc;
+  --light-yellow: #FFEE8C;
 }
 
 
@@ -109,24 +114,29 @@ body, h1 {
   margin: 0px;
 }
 
+main h1 {
+  text-align: center;
+}
+
 /* Styles fonts*/
 h1, h3 {
-  color: #1c3a66;
+  color: var(--header-blue);
 }
 
 h2, h4 {
   color: var(--bcc-blue);
 }
 
+/* Used to style most of the text containers throughout the website */
 .text-container {
-    background-color: #eaf3fc;
-    border: 1px solid #c3d9ec;
+    background-color: var(--textbox-blue);
+    border: 1px solid var(--textbox-border);
     border-radius: 10px;
     padding: 20px;
 }
 
 .button {
-  background-color: var(--bcc-green);
+  background-color: var(--light-green);
   border: 1px solid black;
   box-shadow: 0px 2px 3px 0px rgba(0, 0, 0, 0.25);
   text-align: center;
@@ -139,7 +149,7 @@ h2, h4 {
 
 .button:hover {
   box-shadow: 0px 4px 6px 0px rgba(0, 0, 0, 0.25);
-  background-color: var(--bcc-yellow);
+  background-color: var(--light-yellow);
   color: black;
 }
 

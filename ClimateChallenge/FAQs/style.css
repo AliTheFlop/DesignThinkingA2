@@ -3,28 +3,18 @@
 }
 
 summary {
-    background-color: var(--bcc-green);
-    text-decoration: none;
-    font-weight: bold;
     font-size: 110%;
-    color: black;
-    cursor: pointer;
-    transition: background-color 0.2s ease;
     padding: 20px;
     margin: 10px;
     border-radius: 5px;
-    border: 1px solid black;
-    box-shadow: 0px 2px 3px 0px rgba(0, 0, 0, 0.25);
 }
 
-summary:hover {
-  box-shadow: 0px 4px 6px 0px rgba(0, 0, 0, 0.25);
-  background-color: var(--bcc-yellow);
-  color: black;
+.button {
+    text-align: left;
 }
 
 details[open=""] summary {
-    background-color: var(--bcc-yellow);
+    background-color: var(--light-yellow);
 }
 
 details div {

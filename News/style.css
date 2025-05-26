@@ -5,7 +5,7 @@
 
 .news-heading h1 {
     text-align: center;
-    background-color: rgba(0, 169, 79, 0.35);
+    background-color: var(--light-green);
     width: 100%;
     padding-block: 1%;
 }
