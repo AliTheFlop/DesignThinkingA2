@@ -1,6 +1,7 @@
 /* Page Heading Section */
 .d-news-heading {
     padding-top: 2%;
+    position: relative;
 }
 
 .d-news-heading h1 {
@@ -8,6 +9,18 @@
     background-color: rgba(0, 169, 79, 0.35);
     width: 100%;
     padding-block: 1%;
+}
+
+/* Back Button Styling */
+.back-button-container {
+  position: absolute;
+  left: 100px;
+  top: 50%;
+  transform:translateY(-50%);
+}
+.back-button {
+  padding: 8px 15px;
+  border-radius: 4px;
 }
 
 /* Container for All Columns */
