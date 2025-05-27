@@ -49,8 +49,13 @@
     transform: rotateY(180deg);
 }
 
-.flip-card-back h1 {
-    color: black;
+.flip-card-back h2 {
+    color: white;
+    margin: 0;
+}
+.flip-card-back p {
+    padding: 20px;
+    margin: 0;
 }
 
 /* Our page styles */
@@ -88,6 +93,7 @@
     height: 100%;
     display: flex;
     flex-direction: column;
+    gap: 10px;
     justify-content: space-between;
     border: 1px solid black;
     padding: 0 10px;
@@ -104,9 +110,13 @@
 .climate-challenge-checklist-item {
     display: grid;
     grid-template-columns: 2fr 1fr;
-    padding: 0 20px;
+    padding: 10px 20px;
     font-size: 20px;
     border: 1px solid black;
+}
+
+.climate-challenge-checklist-item p {
+    margin: 0;
 }
 
 /* Styles to keep the checkbox to the right of the div (it stuck to the middle for some reason :[ )*/
@@ -114,22 +124,25 @@
     display: flex;
     align-items: center;
     justify-content: end;
+    height: auto;
 }
 
 /* Same as above - helps keep checkbox in check (lol) */
 .checklist-checkbox input {
-    width: 30px;
-    height: 30px;
-}
-
-/* Checklist submit button */
-.checklist-submit {
-    padding: 8px 0;
-}
-
-.checklist-submit a {
+    max-width: 30px;
     width: 100%;
     height: 100%;
+}
+
+/* Checklist submit button - div then text inside*/
+.checklist-submit {
+    margin-bottom: 10px;
+}
+
+/* Link inside the div - display block to make it work with the rest of the outside container & take full width */
+.checklist-submit a {
+    display: block;
+    padding: 8px 0;
 }
 
 /* Help container styles*/
