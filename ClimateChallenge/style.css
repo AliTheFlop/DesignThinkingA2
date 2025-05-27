@@ -23,6 +23,10 @@
     transform: rotateY(180deg);
 }
 
+.flip-card {
+    min-height: 300px;
+}
+
 /* The front and back must be absolute to make it work properly*/
 
 .flip-card-front,
@@ -65,26 +69,27 @@
 }
 
 /* The checklist grid for all the activities - holds everything and keeps them styled the same. */
-.climate-challenge-checklist-grid {
+.climate-challenge-grid {
     display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    grid-template-rows: 1fr;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
     grid-column-gap: 40px;
     grid-row-gap: 0px;
 }
 
 /* Single checklist container */
-.climate-challenge-checklist-container {
+.climate-challenge-game-container {
     display: flex;
     flex-direction: column;
 }
 
-/* "start game" button */
-.climate-challenge-checklist-container button {
-    padding: 20px;
-    margin-top: 10px;
-    font-size: 16px;
-    font-weight: bold;
+/* Game start button*/
+.start-game-button {
+    margin: 10px 0;
+}
+
+.start-game-button a {
+    display: block;
+    padding: 8px 0;
 }
 
 /* The actual checklist on the right's styles */
@@ -138,7 +143,6 @@
 .checklist-submit {
     margin-bottom: 10px;
 }
-
 /* Link inside the div - display block to make it work with the rest of the outside container & take full width */
 .checklist-submit a {
     display: block;
@@ -168,12 +172,6 @@ Makes it work well for Desktops, Laptops, Tablets, and Mobile phones
 */
 
 @media screen and (max-width: 1024px) {
-    /* Changing grid to 1 column */
-    .climate-challenge-checklist-grid {
-        grid-template-columns: repeat(1, 1fr);
-        height: auto;
-    }
-
     /* Flip card min height to keep it in check */
     .flip-card {
         min-height: 400px;
