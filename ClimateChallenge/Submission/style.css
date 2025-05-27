@@ -22,11 +22,12 @@
 
 /* Class for all content divs */
 .content-block {
-    background-color: white;
+    background-color: var(--textbox-blue); /* Changed from white */
     padding: 20px;
-    border: 1px solid #ccc;
+    border: 1px solid var(--textbox-border); /* Changed from #ccc */
     width: 100%;
     box-sizing: border-box;
+    border-radius: 10px; /* Added to match .text-container style from global.css */
 }
 
 /* Styling for all headings (h2) */
@@ -73,8 +74,6 @@ h2 {
 
 /* Styling for paragraphs within the fact container */
 .fact-container p {
-    font-size: 0.95rem;
-    line-height: 1.5;
     text-align: center;
 }
 
@@ -91,7 +90,6 @@ h2 {
     padding: 10px;
     margin-bottom: 8px;
     border-radius: 0px;
-    font-size: 0.95rem;
     border: 1px solid #ddd;
 }
 
@@ -99,10 +97,12 @@ h2 {
 .success-message {
     background-color: var(--bcc-green);
     color: white;
-    font-size: 1.2em;
+    font-size: 24px;
     font-weight: bold;
     text-align: center;
     padding: 30px 20px;
+    /* border-radius attribute for .content-block will also apply here if it's part of it,
+       or you can add border-radius: 10px; here if it's a standalone content-block */
 }
 
 /* Styling for paragraphs within the success message block */
@@ -113,12 +113,7 @@ h2 {
 /* Styling for paragraphs within the main text block */
 .main-text-block p {
     margin-top: 0;
-    margin-bottom: 1em;
-}
-
-/* Styling for the last paragraph within the main text block to add more space before buttons */
-.main-text-block p:last-of-type {
-    margin-bottom: 1.5em;
+    margin-bottom: 20px;
 }
 
 /* Styling for buttons within the main text block */
