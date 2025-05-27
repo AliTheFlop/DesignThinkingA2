@@ -1,99 +1,98 @@
 <!DOCTYPE html>
 <html>
-<head>
-    <meta charset="UTF-8" />
-    <title>Topics</title>
-    <link rel="stylesheet" href="/GlobalFiles/global.css">
-    <link rel="stylesheet" href="style.css">
-</head>
+    <head>
+        <meta charset="UTF-8" />
+        <title>Topics</title>
+        <link rel="stylesheet" href="/GlobalFiles/global.css">
+        <link rel="stylesheet" href="style.css">
+    </head>
 
-<body>
-    <header class="site-header">
-        <div class="container">
-            <div class="branding">
-                <div class="logo">
-                    <a href="/index.html">
-                        <img src="/GlobalFiles/logo.png" alt="Site Logo">
-                    </a>
+    <body>
+        <!-- Site Header: Includes Logo and Navigation -->
+        <header class="site-header">
+            <div class="container">
+                <div class="branding">
+                    <div class="logo">
+                        <a href="/index.html">
+                            <img src="/GlobalFiles/logo.png" alt="Site Logo">
+                        </a>
+                    </div>
+                    <div class="site-name">
+                        <a href="/index.html">
+                            <h1>Climate Wise</h1>
+                        </a>
+                    </div>
                 </div>
-                <div class="site-name">
-                    <a href="/index.html">
-                        <h1>
-                            Climate Wise
-                        </h1>
-                    </a>
+
+                <!-- Hamburger toggle -->
+                <input type="checkbox" id="menu-toggle" class="menu-toggle">
+                <label for="menu-toggle" class="menu-icon">
+                    ☰
+                </label>
+
+                <!-- Nav menu -->
+                <nav class="menu">
+                    <ul class="navbar">
+                        <li><a href="/index.html">Home</a></li>
+                        <li><a href="/News/">News</a></li>
+                        <li><a href="/Topics/index.html" class="current-page">Topics</a></li>
+                        <li><a href="/AboutUs/index.html">About Us</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </header>
+
+        <!--Type any specific page content within the 'main' tag below--> 
+        <main> 
+            <div class="main-container">
+                <div>
+                    <h1>Rising Sea Levels</h1>
+                </div>
+
+                <div class="video-container">
+                    <iframe 
+                        width="100%" 
+                        height="315"
+                        src="https://www.youtube.com/embed/cXzfOpZSmk8" 
+                        title="Rising Tides: Understanding Sea Level Rise" 
+                        frameborder="0" 
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+                        allowfullscreen>
+                    </iframe>
+                </div>
+
+                <div class="description text-container">
+                    <h2>Description</h2>
+                    <p>
+                        Rising sea levels caused by global warming threaten Brisbane’s coastal areas. Flooding can damage homes and natural habitats. Building barriers and protecting mangroves are ways to help keep the coastline safe.
+                    </p>
+                </div>
+
+                <div class="recent-news text-container">
+                    <h2>Recent News</h2>
+                    <p>
+                        Rising sea levels are becoming a growing concern for Brisbane’s coastal suburbs. According to recent reports from the Queensland Government, areas such as Moreton Bay and the Brisbane River delta are already showing signs of increased erosion and flooding. Urban planners are now exploring adaptive infrastructure strategies to help safeguard vulnerable communities.
+                    </p>
+                </div>
+
+                <div class="links-container text-container">
+                    <h2>Related Topics</h2>
+                    <ul class="topics-list">
+                        <li><a href="/WorkInProgress/index.html">Water Pollution in Brisbane</a></li>
+                        <li><a href="/WorkInProgress/index.html">Climate Change and Health</a></li>
+                        <li><a href="/WorkInProgress/index.html">Sustainable Transportation</a></li>
+                    </ul>
                 </div>
             </div>
-            <nav>
-                <ul class="navbar">
-                    <li><a href="/index.html">Home</a></li>
-                    <li><a href="/News/">News</a></li>
-                    <li><a href="/Topics/index.html" class="current-page">Topics</a></li>
-                    <li><a href="/AboutUs/index.html">About Us</a></li>
-                </ul>
-            </nav>
-        </div>
-    </header>
+        </main>
 
-    <!--Type any specific page content within the 'main' tag below--> 
-    <main> 
-    <div class="main-container">
-        <div>
-            <h1>Rising Sea Levels</h1>
-        </div>
-
-        <div class="video-container">
-    <iframe 
-        width="100%" 
-        height="315"
-        src="https://www.youtube.com/embed/cXzfOpZSmk8" 
-        title="Rising Tides: Understanding Sea Level Rise" 
-        frameborder="0" 
-        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
-        allowfullscreen>
-    </iframe>
-</div>
-
-<div class="description text-container">
-    <h2>Description</h2>
-        <p>
-           Rising sea levels caused by global warming threaten Brisbane’s coastal areas. Flooding can damage homes and natural habitats. Building barriers and protecting mangroves are ways to help keep the coastline safe.
-        </p>
-        </div>
-
-        <div class="recent-news text-container">
-    <h2>Recent News</h2>
-        <p>
-        Rising sea levels are becoming a growing concern for Brisbane’s coastal suburbs. According to recent reports from the Queensland Government, areas such as Moreton Bay and the Brisbane River delta are already showing signs of increased erosion and flooding. Urban planners are now exploring adaptive infrastructure strategies to help safeguard vulnerable communities.
-        </p>
-</div>
-
-            <div class="links-container text-container">
-                <h2>Related Topics</h2>
-                <ul class="topics-list">
-                    <li><a href="/WorkInProgress/index.html">Water Pollution in Brisbane</a></li>
-                    <li><a href="/WorkInProgress/index.html">Climate Change and Health</a></li>
-                    <li><a href="/WorkInProgress/index.html">Sustainable Transportation</a></li>
-                </ul>
+        <footer class="site-footer">
+            <div class="container">
+                <p>
+                    &copy; 2025 - Ali Saleh, Aqua Cunningham, Jackson Downing, & Luan Child.<br />
+                    Created for 2008ICT at Griffith University.
+                </p>
             </div>
-        </div>
-
-
-
-    </main>
-
-
-
-
-
-    <footer class="site-footer">
-        <div class="container">
-            <p>
-                &copy; 2025 - Ali Saleh, Aqua Cunningham, Jackson Downing, & Luan Child.<br />
-                Created for 2008ICT at Griffith University.
-            </p>
-        </div>
-    </footer>
-
-</body>
+        </footer>
+    </body>
 </html>

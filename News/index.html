@@ -1,178 +1,184 @@
 <!DOCTYPE html>
 <html>
-<head>
-    <meta charset="UTF-8" />
-    <title>News</title>
+    <head>
+        <meta charset="UTF-8" />
+        <title>News</title>
 
-    <!-- Global and Page-specific Stylesheets -->
-    <link rel="stylesheet" href="/GlobalFiles/global.css">
-    <link rel="stylesheet" href="style.css">
-</head>
+        <!-- Global and Page-specific Stylesheets -->
+        <link rel="stylesheet" href="/GlobalFiles/global.css">
+        <link rel="stylesheet" href="style.css">
+    </head>
 
-<body>
-    <!-- Site Header: Includes Logo and Navigation -->
-    <header class="site-header">
-        <div class="container">
-            <div class="branding">
-                <div class="logo">
-                    <a href="/index.html">
-                        <img src="/GlobalFiles/logo.png" alt="Site Logo">
-                    </a>
+    <body>
+        <!-- Site Header: Includes Logo and Navigation -->
+        <header class="site-header">
+            <div class="container">
+                <div class="branding">
+                    <div class="logo">
+                        <a href="/index.html">
+                            <img src="/GlobalFiles/logo.png" alt="Site Logo">
+                        </a>
+                    </div>
+                    <div class="site-name">
+                        <a href="/index.html">
+                            <h1>Climate Wise</h1>
+                        </a>
+                    </div>
                 </div>
-                <div class="site-name">
-                    <a href="/index.html">
-                        <h1>
-                            Climate Wise
-                        </h1>
-                    </a>
-                </div>
+
+                <!-- Hamburger toggle -->
+                <input type="checkbox" id="menu-toggle" class="menu-toggle">
+                <label for="menu-toggle" class="menu-icon">
+                    ☰
+                </label>
+
+                <!-- Nav menu -->
+                <nav class="menu">
+                    <ul class="navbar">
+                        <li><a href="/index.html">Home</a></li>
+                        <li><a href="/News/" class="current-page">News</a></li>
+                        <li><a href="/Topics/index.html">Topics</a></li>
+                        <li><a href="/AboutUs/index.html">About Us</a></li>
+                    </ul>
+                </nav>
             </div>
-            <nav>
-                <ul class="navbar">
-                    <li><a href="/index.html">Home</a></li>
-                    <li><a href="/News/" class="current-page">News</a></li>
-                    <li><a href="/Topics/index.html">Topics</a></li>
-                    <li><a href="/AboutUs/index.html">About Us</a></li>
-                </ul>
-            </nav>
-        </div>
-    </header>
+        </header>
 
-    <!-- Main Content Area -->
-    <main>
-        <!-- Page Heading -->
-        <div class="news-heading main-container">
-            <h1>See the Latest News</h1>
-        </div>
-
-        <!-- Main Container for News Content -->
-        <div class="main-container news-container">
-
-            <!-- Personal Stories Section -->
-            <div class="personal-stories text-container">
-                <h2>Personal Stories</h2>
-
-                <!-- Story Block -->
-                <div class="story">
-                    <h3>Global Warming Effects on Brisbane</h3>
-                    <div class="story-body">
-                        <img src="https://tz-mag-media.s3.ap-southeast-1.amazonaws.com/wp-content/uploads/2019/01/18180324/40-49%C2%B0C.png" alt="Brisbane Heat Waves" class="storyimg">
-                        <div class="content">
-                            <p>
-                                A Brisbane local reflects on how global warming has changed their city, family traditions, 
-                                and sense of stability — from extreme weather to ecological shifts and community impacts
-                            </p>
-                            <div class="button-container">
-                                <a href="/News/PersonalStory/index.html" class="story-button button">Read More →</a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-                <!-- Duplicate Story Block (Placeholder/Repeats for layout/testing) -->
-                <div class="story">
-                    <h3>Global Warming Effects on Brisbane</h3>
-                    <div class="story-body">
-                        <img src="https://tz-mag-media.s3.ap-southeast-1.amazonaws.com/wp-content/uploads/2019/01/18180324/40-49%C2%B0C.png" alt="Brisbane Heat Waves" class="storyimg">
-                        <div class="content">
-                            <p>
-                                A Brisbane local reflects on how global warming has changed their city, family traditions, 
-                                and sense of stability — from extreme weather to ecological shifts and community impacts
-                            </p>
-                            <div class="button-container">
-                                <a href="/News/PersonalStory/index.html" class="story-button button">Read More →</a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-                <!-- Duplicate Story Block -->
-                <div class="story">
-                    <h3>Global Warming Effects on Brisbane</h3>
-                    <div class="story-body">
-                        <img src="https://tz-mag-media.s3.ap-southeast-1.amazonaws.com/wp-content/uploads/2019/01/18180324/40-49%C2%B0C.png" alt="Brisbane Heat Waves" class="storyimg">
-                        <div class="content">
-                            <p>
-                                A Brisbane local reflects on how global warming has changed their city, family traditions, 
-                                and sense of stability — from extreme weather to ecological shifts and community impacts
-                            </p>
-                            <div class="button-container">
-                                <a href="/News/PersonalStory/index.html" class="story-button button">Read More →</a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
+        <!-- Main Content Area -->
+        <main>
+            <!-- Page Heading -->
+            <div class="news-heading main-container">
+                <h1>See the Latest News</h1>
             </div>
 
-            <!-- Detailed News Section -->
-            <div class="detailed-news text-container">
-                <h2>Detailed News</h2>
+            <!-- Main Container for News Content -->
+            <div class="main-container news-container">
 
-                <!-- Detailed News Block -->
-                <div class="detailed-news-blocks">
-                    <h3>Reforestation</h3>
-                    <div class="story-body">
-                        <a href="/News/DetailedNews/">
-                            <img src="https://www.sustainablebrisbane.com.au/wp-content/uploads/2024/07/2023.10.05_GreeningAustralia_CathyFinchPhotography-050296-2-edited-1-2048x1152.jpg" alt="Revegetation works in Brisbane Suburb" class="storyimg">
-                        </a>
-                        <div class="content">
-                            <p>
-                                Brisbane City Council has launched an ambitious reforestation initiative aimed at restoring native habitats, improving air quality, and mitigating climate impacts. 
-                            </p>
-                            <div class="button-container">
-                                <a href="/News/DetailedNews/" class="story-button button">Read More →</a>
+                <!-- Personal Stories Section -->
+                <div class="personal-stories text-container">
+                    <h2>Personal Stories</h2>
+
+                    <!-- Story Block -->
+                    <div class="story">
+                        <h3>Global Warming Effects on Brisbane</h3>
+                        <div class="story-body">
+                            <img src="https://tz-mag-media.s3.ap-southeast-1.amazonaws.com/wp-content/uploads/2019/01/18180324/40-49%C2%B0C.png" alt="Brisbane Heat Waves" class="storyimg">
+                            <div class="content">
+                                <p>
+                                    A Brisbane local reflects on how global warming has changed their city, family traditions, 
+                                    and sense of stability — from extreme weather to ecological shifts and community impacts
+                                </p>
+                                <div class="button-container">
+                                    <a href="/News/PersonalStory/index.html" class="story-button button">Read More →</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Duplicate Story Block (Placeholder/Repeats for layout/testing) -->
+                    <div class="story">
+                        <h3>Global Warming Effects on Brisbane</h3>
+                        <div class="story-body">
+                            <img src="https://tz-mag-media.s3.ap-southeast-1.amazonaws.com/wp-content/uploads/2019/01/18180324/40-49%C2%B0C.png" alt="Brisbane Heat Waves" class="storyimg">
+                            <div class="content">
+                                <p>
+                                    A Brisbane local reflects on how global warming has changed their city, family traditions, 
+                                    and sense of stability — from extreme weather to ecological shifts and community impacts
+                                </p>
+                                <div class="button-container">
+                                    <a href="/News/PersonalStory/index.html" class="story-button button">Read More →</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Duplicate Story Block -->
+                    <div class="story">
+                        <h3>Global Warming Effects on Brisbane</h3>
+                        <div class="story-body">
+                            <img src="https://tz-mag-media.s3.ap-southeast-1.amazonaws.com/wp-content/uploads/2019/01/18180324/40-49%C2%B0C.png" alt="Brisbane Heat Waves" class="storyimg">
+                            <div class="content">
+                                <p>
+                                    A Brisbane local reflects on how global warming has changed their city, family traditions, 
+                                    and sense of stability — from extreme weather to ecological shifts and community impacts
+                                </p>
+                                <div class="button-container">
+                                    <a href="/News/PersonalStory/index.html" class="story-button button">Read More →</a>
+                                </div>
                             </div>
                         </div>
                     </div>
                 </div>
 
-                <!-- Duplicate Detailed News Block -->
-                <div class="detailed-news-blocks">
-                    <h3>Reforestation</h3>
-                    <div class="story-body">
-                        <a href="/News/DetailedNews/">
-                            <img src="https://www.sustainablebrisbane.com.au/wp-content/uploads/2024/07/2023.10.05_GreeningAustralia_CathyFinchPhotography-050296-2-edited-1-2048x1152.jpg" alt="Revegetation works in Brisbane Suburb" class="storyimg">
-                        </a>
-                        <div class="content">
-                            <p>
-                                Brisbane City Council has launched an ambitious reforestation initiative aimed at restoring native habitats, improving air quality, and mitigating climate impacts. 
-                            </p>
-                            <div class="button-container">
-                                <a href="/News/DetailedNews/" class="story-button button">Read More →</a>
+                <!-- Detailed News Section -->
+                <div class="detailed-news text-container">
+                    <h2>Detailed News</h2>
+
+                    <!-- Detailed News Block -->
+                    <div class="detailed-news-blocks">
+                        <h3>Reforestation</h3>
+                        <div class="story-body">
+                            <a href="/News/DetailedNews/">
+                                <img src="https://www.sustainablebrisbane.com.au/wp-content/uploads/2024/07/2023.10.05_GreeningAustralia_CathyFinchPhotography-050296-2-edited-1-2048x1152.jpg" alt="Revegetation works in Brisbane Suburb" class="storyimg">
+                            </a>
+                            <div class="content">
+                                <p>
+                                    Brisbane City Council has launched an ambitious reforestation initiative aimed at restoring native habitats, improving air quality, and mitigating climate impacts. 
+                                </p>
+                                <div class="button-container">
+                                    <a href="/News/DetailedNews/" class="story-button button">Read More →</a>
+                                </div>
                             </div>
                         </div>
                     </div>
-                </div>
 
-                <!-- Duplicate Detailed News Block -->
-                <div class="detailed-news-blocks">
-                    <h3>Reforestation</h3>
-                    <div class="story-body">
-                        <a href="/News/DetailedNews/">
-                            <img src="https://www.sustainablebrisbane.com.au/wp-content/uploads/2024/07/2023.10.05_GreeningAustralia_CathyFinchPhotography-050296-2-edited-1-2048x1152.jpg" alt="Revegetation works in Brisbane Suburb" class="storyimg">
-                        </a>
-                        <div class="content">
-                            <p>
-                                Brisbane City Council has launched an ambitious reforestation initiative aimed at restoring native habitats, improving air quality, and mitigating climate impacts. 
-                            </p>
-                            <div class="button-container">
-                                <a href="/News/DetailedNews/" class="story-button button">Read More →</a>
+                    <!-- Duplicate Detailed News Block -->
+                    <div class="detailed-news-blocks">
+                        <h3>Reforestation</h3>
+                        <div class="story-body">
+                            <a href="/News/DetailedNews/">
+                                <img src="https://www.sustainablebrisbane.com.au/wp-content/uploads/2024/07/2023.10.05_GreeningAustralia_CathyFinchPhotography-050296-2-edited-1-2048x1152.jpg" alt="Revegetation works in Brisbane Suburb" class="storyimg">
+                            </a>
+                            <div class="content">
+                                <p>
+                                    Brisbane City Council has launched an ambitious reforestation initiative aimed at restoring native habitats, improving air quality, and mitigating climate impacts. 
+                                </p>
+                                <div class="button-container">
+                                    <a href="/News/DetailedNews/" class="story-button button">Read More →</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Duplicate Detailed News Block -->
+                    <div class="detailed-news-blocks">
+                        <h3>Reforestation</h3>
+                        <div class="story-body">
+                            <a href="/News/DetailedNews/">
+                                <img src="https://www.sustainablebrisbane.com.au/wp-content/uploads/2024/07/2023.10.05_GreeningAustralia_CathyFinchPhotography-050296-2-edited-1-2048x1152.jpg" alt="Revegetation works in Brisbane Suburb" class="storyimg">
+                            </a>
+                            <div class="content">
+                                <p>
+                                    Brisbane City Council has launched an ambitious reforestation initiative aimed at restoring native habitats, improving air quality, and mitigating climate impacts. 
+                                </p>
+                                <div class="button-container">
+                                    <a href="/News/DetailedNews/" class="story-button button">Read More →</a>
+                                </div>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
-        </div>
-    </main>
+        </main>
 
-    <!-- Site Footer -->
-    <footer class="site-footer">
-        <div class="container">
-            <p>
-                &copy; 2025 - Ali Saleh, Aqua Cunningham, Jackson Downing, & Luan Child.<br />
-                Created for 2008ICT at Griffith University.
-            </p>
-        </div>
-    </footer>
-</body>
+        <!-- Site Footer -->
+        <footer class="site-footer">
+            <div class="container">
+                <p>
+                    &copy; 2025 - Ali Saleh, Aqua Cunningham, Jackson Downing, & Luan Child.<br />
+                    Created for 2008ICT at Griffith University.
+                </p>
+            </div>
+        </footer>
+    </body>
 </html>

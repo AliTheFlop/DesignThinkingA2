@@ -78,6 +78,51 @@
     color: white;
 }
 
+/* Responsive design for mobile view */
+/* Hide checkbox and style hamburger icon */
+.menu-toggle {
+  display: none;
+}
+
+.menu-icon {
+  display: none;
+  font-size: 30px;
+  color: white;
+  cursor: pointer;
+}
+
+/* Responsive layout */
+@media (max-width: 768px) {
+  .navbar {
+    flex-direction: column;
+    display: none;
+    width: 100%;
+    background-color: var(--bcc-blue);
+  }
+
+  .menu-icon {
+    display: block;
+  }
+
+  /* Show nav when checkbox is checked */
+  .menu-toggle:checked + .menu-icon + .menu .navbar {
+    display: flex;
+  }
+
+  .site-header .container {
+    flex-wrap: wrap;
+  }
+
+  .menu {
+    width: 100%;
+  }
+
+  .navbar li {
+    margin: 10px 0;
+    text-align: center;
+  }
+}
+
 /* Main */
 /* Universal colours for website background, headers, buttons, divs, and text */
 

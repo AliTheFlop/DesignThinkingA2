@@ -1,113 +1,119 @@
 <!DOCTYPE html>
 <html>
-<head>
-    <meta charset="UTF-8" />
-    <title>Personal Stories</title>
-    <link rel="stylesheet" href="/GlobalFiles/global.css">
-    <link rel="stylesheet" href="style.css">
-</head>
+    <head>
+        <meta charset="UTF-8" />
+        <title>Personal Stories</title>
+        <link rel="stylesheet" href="/GlobalFiles/global.css">
+        <link rel="stylesheet" href="style.css">
+    </head>
 
-<body>
-    <!-- Header Section -->
-    <header class="site-header">
-        <div class="container">
-            <div class="branding">
-                <div class="logo">
-                    <a href="/index.html">
-                        <img src="/GlobalFiles/logo.png" alt="Site Logo">
-                    </a>
-                </div>
-                <div class="site-name">
-                    <a href="/index.html">
-                        <h1>
-                            Climate Wise
-                        </h1>
-                    </a>
-                </div>
-            </div>
-            <nav>
-                <ul class="navbar">
-                    <li><a href="/index.html">Home</a></li>
-                    <li><a href="/News/" class="current-page">News</a></li>
-                    <li><a href="/Topics/index.html">Topics</a></li>
-                    <li><a href="/AboutUs/index.html">About Us</a></li>
-                </ul>
-            </nav>
-        </div>
-    </header>
-
-    <!-- Main Content Section -->
-    <main>
-        <!-- Personal Stories Heading + Back Button -->
-        <div class="pstory-heading main-container">
-            <h1>Personal Stories</h1>
-            <div class="back-button-container">
-                <a href="/News" class="back-button button">Back</a>
-            </div>
-        </div>
-
-        <div class="main-container">
-            <div class="personal-stories-wrapper">
-
-                <!-- Personal Stories Column -->
-                <div class="personal-stories-container">
-
-                    <!-- Story Block -->
-                    <div class="story-block">
-                        <div class="story-images">
-                            <div class="story-image">
-                                <img src="https://pbs.twimg.com/media/GbrVFZ4W0A49FZF.jpg:large" alt="Heatwave image" />
-                            </div>
-                            <div class="story-image">
-                                <img src="https://b2976109.smushcdn.com/2976109/wp-content/uploads/2023/10/Heatwave-1.jpg?lossy=2&strip=1&webp=1" alt="Heat impact" />
-                            </div>
-                        </div>
-                        <div class="storytext-container">
-                            <h2>Brisbane's Heatwaves Are Changing My Life</h2>
-                            <div class="story-text">
-                                <p>I've lived in Brisbane my whole life, growing up in a Queenslander in Moorooka. Summers once meant river swims and family barbecues—now they feel endless and suffocating. In March 2023, a night of 28°C heat triggered a severe asthma attack in my toddler. Floods worse than 2011 followed; a neighbour in Rocklea had to abandon their home after repeated damage and denied insurance. Even nature seems off—silent frogs, falling jacarandas, and heat-struck bats in winter. Record highs are now routine. My sister lost everything in the Lismore floods and moved back. We've made small changes—solar panels, shorter showers—but it feels like bailing out a sinking boat with a teaspoon. The heat wears you down emotionally. Brisbane still has beauty, but the climate crisis has made our seasons unreliable and our futures uncertain. I miss the Brisbane I knew and worry my son will grow up thinking this is normal.</p>
-                            </div>
-                        </div>
+    <body>
+        <!-- Site Header: Includes Logo and Navigation -->
+        <header class="site-header">
+            <div class="container">
+                <div class="branding">
+                    <div class="logo">
+                        <a href="/index.html">
+                            <img src="/GlobalFiles/logo.png" alt="Site Logo">
+                        </a>
+                    </div>
+                    <div class="site-name">
+                        <a href="/index.html">
+                            <h1>Climate Wise</h1>
+                        </a>
                     </div>
                 </div>
 
+                <!-- Hamburger toggle -->
+                <input type="checkbox" id="menu-toggle" class="menu-toggle">
+                <label for="menu-toggle" class="menu-icon">
+                    ☰
+                </label>
+
+                <!-- Nav menu -->
+                <nav class="menu">
+                    <ul class="navbar">
+                        <li><a href="/index.html">Home</a></li>
+                        <li><a href="/News/" class="current-page">News</a></li>
+                        <li><a href="/Topics/index.html">Topics</a></li>
+                        <li><a href="/AboutUs/index.html">About Us</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </header>
+
+        <!-- Main Content Section -->
+        <main>
+            <!-- Personal Stories Heading + Back Button -->
+            <div class="pstory-heading main-container">
+                <h1>Personal Stories</h1>
+                <div class="back-button-container">
+                    <a href="/News" class="back-button button">Back</a>
+                </div>
             </div>
 
-            <!-- Related Stories Section -->
-            <div class="relatedstories">
-                <h2>Related Personal Stories</h2>
-                <ul>
-                    <li>
-                        <a href="/WorkInProgress/index.html">
-                            <h3>Cycling Through Brisbane's Changing Seasons</h3>
-                        </a>
-                        A local commuter shares how rising temperatures and extreme weather have affected their daily bike rides.
-                    </li>
-                    <li>
-                        <a href="/WorkInProgress/index.html">
-                            <h3>My Journey Switching to Solar Power in Brisbane</h3>
-                        </a>
-                        A Brisbane homeowner recounts the challenges and benefits of installing solar panels.
-                    </li>
-                    <li>
-                        <a href="/WorkInProgress/index.html">
-                            <h3>Growing a Climate-Resilient Garden in Brisbane</h3>
-                        </a>
-                        A gardener talks about adapting plant choices and watering habits due to unpredictable rainfall.
-                    </li>
-                </ul>
-            </div>
-        </div>
-    </main>
+            <div class="main-container">
+                <div class="personal-stories-wrapper">
 
-    <!-- Footer Section -->
-    <footer class="site-footer">
-        <div class="container">
-            <p>
-                &copy; 2025 - Ali Saleh, Aqua Cunningham, Jackson Downing, & Luan Child.<br />
-                Created for 2008ICT at Griffith University.
-            </p>
-        </div>
-    </footer>
-</body>
+                    <!-- Personal Stories Column -->
+                    <div class="personal-stories-container">
+
+                        <!-- Story Block -->
+                        <div class="story-block">
+                            <div class="story-images">
+                                <div class="story-image">
+                                    <img src="https://pbs.twimg.com/media/GbrVFZ4W0A49FZF.jpg:large" alt="Heatwave image" />
+                                </div>
+                                <div class="story-image">
+                                    <img src="https://b2976109.smushcdn.com/2976109/wp-content/uploads/2023/10/Heatwave-1.jpg?lossy=2&strip=1&webp=1" alt="Heat impact" />
+                                </div>
+                            </div>
+                            <div class="storytext-container">
+                                <h2>Brisbane's Heatwaves Are Changing My Life</h2>
+                                <div class="story-text">
+                                    <p>I've lived in Brisbane my whole life, growing up in a Queenslander in Moorooka. Summers once meant river swims and family barbecues—now they feel endless and suffocating. In March 2023, a night of 28°C heat triggered a severe asthma attack in my toddler. Floods worse than 2011 followed; a neighbour in Rocklea had to abandon their home after repeated damage and denied insurance. Even nature seems off—silent frogs, falling jacarandas, and heat-struck bats in winter. Record highs are now routine. My sister lost everything in the Lismore floods and moved back. We've made small changes—solar panels, shorter showers—but it feels like bailing out a sinking boat with a teaspoon. The heat wears you down emotionally. Brisbane still has beauty, but the climate crisis has made our seasons unreliable and our futures uncertain. I miss the Brisbane I knew and worry my son will grow up thinking this is normal.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+
+                <!-- Related Stories Section -->
+                <div class="relatedstories">
+                    <h2>Related Personal Stories</h2>
+                    <ul>
+                        <li>
+                            <a href="/WorkInProgress/index.html">
+                                <h3>Cycling Through Brisbane's Changing Seasons</h3>
+                            </a>
+                            A local commuter shares how rising temperatures and extreme weather have affected their daily bike rides.
+                        </li>
+                        <li>
+                            <a href="/WorkInProgress/index.html">
+                                <h3>My Journey Switching to Solar Power in Brisbane</h3>
+                            </a>
+                            A Brisbane homeowner recounts the challenges and benefits of installing solar panels.
+                        </li>
+                        <li>
+                            <a href="/WorkInProgress/index.html">
+                                <h3>Growing a Climate-Resilient Garden in Brisbane</h3>
+                            </a>
+                            A gardener talks about adapting plant choices and watering habits due to unpredictable rainfall.
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </main>
+
+        <!-- Footer Section -->
+        <footer class="site-footer">
+            <div class="container">
+                <p>
+                    &copy; 2025 - Ali Saleh, Aqua Cunningham, Jackson Downing, & Luan Child.<br />
+                    Created for 2008ICT at Griffith University.
+                </p>
+            </div>
+        </footer>
+    </body>
 </html>
