@@ -62,19 +62,6 @@
     margin-bottom: 10px;
 }
 
-/*styles text links*/
-.links-container a {
-    text-decoration: none;
-    color: #2b4c7e;
-    font-weight: bold;
-    transition: color 0.3s ease;
-}
-
-/*changes colour of link when hovered*/
-.links-container a:hover {
-    color: #1a3055;
-}
-
 /*Adjusts style of page for use on mobiles*/
 @media (max-width: 768px) {
   .topics-grid {

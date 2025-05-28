@@ -65,9 +65,7 @@
     max-width: 100%;
     margin: 20px auto;
     padding: 20px;
-    background-color: rgba(0, 103, 177, 0.05);
     border-radius: 8px;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
     text-align: center;
 }
 
@@ -114,13 +112,8 @@ h3 {
 }
 
 /* Related Topics Link Styles */
-.related-topics ul a,
 .related-topics ul {
     list-style-type: none;
-    text-decoration: none;
-    color: #2b4c7e;
-    font-weight: bold;
-    transition: color 0.3s ease;
 }
 
 /* Responsive Design - Mobile View */

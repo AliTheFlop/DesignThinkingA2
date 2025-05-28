@@ -198,6 +198,20 @@ h4 {
     color: black;
 }
 
+
+/* Below borrows the styles of text links from other pages in the website */
+main a {
+    text-decoration: none;
+    color: #2b4c7e;
+    font-weight: bold;
+    transition: color 0.3s ease;
+}
+
+main a:hover {
+    color: #1a3055;
+}
+
+
 /* Footer */
 
 .site-footer {

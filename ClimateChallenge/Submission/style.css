@@ -95,8 +95,8 @@ h2 {
 
 /* Styling for the success message block */
 .success-message {
-    background-color: var(--bcc-green);
-    color: white;
+    background-color: var(--light-green);
+    color: black;
     font-size: 24px;
     font-weight: bold;
     text-align: center;

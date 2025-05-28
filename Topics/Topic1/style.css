@@ -3,6 +3,23 @@ main h1, main h2 {
     margin-bottom: 10px;
 }
 
+.heading {
+    position: relative
+}
+
+/* Back Button Styling */
+.back-button-container {
+  position: absolute;
+  left: 0px;
+  top: 50%;
+  transform:translateY(-50%);
+}
+
+.back-button {
+  padding: 8px 15px;
+  border-radius: 4px;
+}
+
 .video-container iframe {
     border-radius: 10px;
     max-width: 100%;
@@ -47,17 +64,4 @@ main h1, main h2 {
 /*Styles each item in the list*/
 .links-container li {
     margin-bottom: 10px;
-}
-
-/*styles text links*/
-.links-container a {
-    text-decoration: none;
-    color: #2b4c7e;
-    font-weight: bold;
-    transition: color 0.3s ease;
-}
-
-/*changes colour of link when hovered*/
-.links-container a:hover {
-    color: #1a3055;
 }
