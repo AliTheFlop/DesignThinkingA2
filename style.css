@@ -79,3 +79,10 @@ h3 {
 .fun-fact {
     margin-top: 5px;
 }
+
+/* Single grid */
+@media (max-width: 768px) {
+    .bottom-container {
+        grid-template-columns: 1fr; /* Forces a single column layout */
+    }
+}
