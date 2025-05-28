@@ -1,4 +1,4 @@
-/* Main page container using CSS Grid for two-column layout */
+/* Main page Grid for two-column layout */
 .submission-page-container {
     display: grid;
     grid-template-columns: 2fr 1fr;
@@ -22,12 +22,12 @@
 
 /* Class for all content divs */
 .content-block {
-    background-color: var(--textbox-blue); /* Changed from white */
+    background-color: var(--textbox-blue);
     padding: 20px;
-    border: 1px solid var(--textbox-border); /* Changed from #ccc */
+    border: 1px solid var(--textbox-border);
     width: 100%;
     box-sizing: border-box;
-    border-radius: 10px; /* Added to match .text-container style from global.css */
+    border-radius: 10px;
 }
 
 /* Styling for all headings (h2) */
@@ -101,8 +101,6 @@ h2 {
     font-weight: bold;
     text-align: center;
     padding: 30px 20px;
-    /* border-radius attribute for .content-block will also apply here if it's part of it,
-       or you can add border-radius: 10px; here if it's a standalone content-block */
 }
 
 /* Styling for paragraphs within the success message block */
