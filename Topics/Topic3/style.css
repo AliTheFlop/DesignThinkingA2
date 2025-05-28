@@ -1,13 +1,14 @@
-/* 'main' required so this does not affect the header */
+/* Add spacing below main headings inside <main> to separate them from content */
 main h1, main h2 {
     margin-bottom: 10px;
 }
 
+/* Set up the heading area for positioned elements like the back button */
 .heading {
     position: relative
 }
 
-/* Back Button Styling */
+/* Position the back button on the left and vertically center it */
 .back-button-container {
   position: absolute;
   left: 0px;
@@ -15,11 +16,13 @@ main h1, main h2 {
   transform:translateY(-50%);
 }
 
+/* Style the appearance of the back button */
 .back-button {
   padding: 8px 15px;
   border-radius: 4px;
 }
 
+/* Style and resize the embedded video for responsiveness */
 .video-container iframe {
     border-radius: 10px;
     width: 100%;
@@ -28,12 +31,14 @@ main h1, main h2 {
     margin-bottom: 30px;
 }
 
+/* Add spacing between main content sections */
 .description,
 .recent-news,
 .links-container {
     margin-bottom: 30px;
 }
 
+/* Add spacing inside paragraphs and list sections */
 .description p,
 .recent-news p,
 .links-container ul {
@@ -48,20 +53,20 @@ main h1, main h2 {
     text-align: center;
 }
 
-/* Styles the related topics heading */
+/* Style the heading inside the related topics section */
 .links-container h2 {
     margin-bottom: 20px;
     font-size: 1.4rem;
 }
 
-/* Styles the list format*/
+/* Remove default bullet points and spacing from the list */
 .links-container ul {
     list-style: none;
     padding-left: 0;
     margin: 0;
 }
 
-/*Styles each item in the list*/
+/* Add spacing between individual list items */
 .links-container li {
     margin-bottom: 10px;
 }
