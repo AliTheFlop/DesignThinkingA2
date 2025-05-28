@@ -13,20 +13,14 @@
 }
 
 /* Styles individual card-like sections in the bottom container. */
-.achievements-container,
-.climate-action-container,
-.climate-challenge-container,
-.community-progress-container {
+.bottom-container-item {
     display: flex;
     flex-direction: column;
     padding: 20px;
 }
 
 /* Styles headings within the card-like sections. */
-.achievements-container h2,
-.climate-action-container h2,
-.climate-challenge-container h2,
-.community-progress-container h2 {
+.bottom-container-item h2 {
     text-align: center;
     margin-top: 0;
     margin-bottom: 15px;
@@ -52,12 +46,17 @@
 }
 
 /* Styles images in climate challenge and community progress sections. */
-.climate-challenge-container img,
-.community-progress-container img {
+.bottom-container-item img {
     max-width: 100%;
     height: auto;
     border-radius: 6px;
     margin-bottom: 15px;
+}
+
+/* Specific styling for climate challenge paragraph */
+.climate-challenge-container p {
+    margin-bottom: 20px;
+    flex-grow: 1;
 }
 
 /* Styles the button in the climate challenge section. */
